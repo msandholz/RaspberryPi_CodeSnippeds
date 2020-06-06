@@ -18,4 +18,7 @@ Hallo, dies ist ein Test!
 
 
 https://pypi.org/project/mpu6050-raspberrypi/
+
 https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi
+
+https://github.com/pimoroni/adxl345-python
