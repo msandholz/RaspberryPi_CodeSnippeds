@@ -15,3 +15,7 @@ Hallo, dies ist ein Test!
 3. Add the pi-user to the I2C-Access group with `sudo adduser pi i2c` and reboot the system with `sudo reboot`
 
 4. Test the software with `i2cdetect -y 1` and `i2cdetect -F 1` to see if there is anything connected.
+
+
+https://pypi.org/project/mpu6050-raspberrypi/
+https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi
