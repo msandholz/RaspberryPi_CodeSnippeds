@@ -2,7 +2,7 @@
 
 Hallo, dies ist ein Test!
 
-![](GPIO-Pinout-Diagram-2.png)
+![](images/GPIO-Pinout-Diagram-2.png)
 
 ## How to use the I2C-Interface
 
