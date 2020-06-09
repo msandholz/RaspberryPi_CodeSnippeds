@@ -15,6 +15,18 @@ Hallo, dies ist ein Test!
 3. Add the pi-user to the I2C-Access group with `sudo adduser pi i2c` and reboot the system with `sudo reboot`
 
 4. Test the software with `i2cdetect -y 1` and `i2cdetect -F 1` to see if there is anything connected.
+```
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- --
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+50: -- -- -- 53 -- -- -- -- -- -- -- -- -- -- -- --
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+70: -- -- -- -- -- -- -- --
+
+```
 
 5. Reading Verion I2C-Dump with: `i2cdump -V`
 
